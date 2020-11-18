@@ -1,0 +1,18 @@
+.topRow {
+    align-items: center;
+    margin-bottom: 20px;
+}
+div.nameTitle {
+    margin: 50px;
+}
+div.nameTitle h1 {
+    font-weight: bold;
+}
+
+div.educationTitle h5{
+    font-weight: bold;
+}
+
+div.yearTitle h6 {
+font-weight: bold;
+}
