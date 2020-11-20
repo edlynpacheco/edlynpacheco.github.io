@@ -9,6 +9,12 @@ div.nameTitle h1 {
     font-weight: bold;
 }
 
+div.topRow {
+    margin: 50px;
+}
+
+
+
 div.educationTitle h5{
     font-weight: bold;
 }
