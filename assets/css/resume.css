@@ -1,9 +1,29 @@
+img {
+    margin-left: 30px;
+}
+
 .topRow {
     align-items: center;
     margin-bottom: 20px;
 }
 div.nameTitle {
     margin: 50px;
+}
+
+.fas {
+    width: 50px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.fab {
+    margin-bottom: 30px;
+}
+
+
+
+div.infoSection h5 {
+    font-weight: bold;
 }
 
 
@@ -15,12 +35,21 @@ div.topRow {
     margin: 50px;
 }
 
+div.divider {
+    transform: translateX(35,0);
+    border-bottom: 2px solid #C77075;
+    margin-bottom: 15px;
+    width: 50%;
+}
 
-
-div.educationTitle h5{
+div.experienceSection h5{
     font-weight: bold;
 }
 
 div.yearTitle h6 {
 font-weight: bold;
 }
+
+li {color:#C77075;
+margin-left: 20px; }
+li span {color: black;}
