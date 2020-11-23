@@ -4,10 +4,11 @@ img {
 
 .topRow {
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 div.nameTitle {
     margin: 50px;
+    margin-top: auto;
 }
 
 .fas {
@@ -33,6 +34,11 @@ div.infoSection h5 {
 div.nameTitle h1 {
     font-family: garamond;
     font-weight: bold;
+}
+
+img.logoImage {
+    margin-top: -25px;
+    margin-left: 200px;
 }
 
 div.topRow {
