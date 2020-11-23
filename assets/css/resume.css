@@ -20,14 +20,18 @@ div.nameTitle {
     margin-bottom: 30px;
 }
 
-
+div.nameTitle h6 {
+    font-family: garamond;
+}
 
 div.infoSection h5 {
+    font-family: garamond;
     font-weight: bold;
 }
 
 
 div.nameTitle h1 {
+    font-family: garamond;
     font-weight: bold;
 }
 
@@ -41,13 +45,18 @@ div.divider {
     margin-bottom: 15px;
     width: 50%;
 }
+ul li {
+    font-family: garamond;
+}
 
 div.experienceSection h5{
+    font-family: garamond;
     font-weight: bold;
 }
 
 div.yearTitle h6 {
-font-weight: bold;
+    font-family: garamond;
+    font-weight: bold;
 }
 
 li {color:#C77075;
