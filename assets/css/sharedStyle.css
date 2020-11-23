@@ -1,0 +1,8 @@
+.customNav {
+    background-color: #C77075;
+}
+
+li.nav-item.active {
+    font-size: 20px;
+    text-decoration: underline;
+}
