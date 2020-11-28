@@ -69,3 +69,28 @@ li {color:#C77075;
 margin-left: 20px; }
 li span {color: black;}
 
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .myresume {
+        border-width: 0px;
+    }
+}
+
+/* Nav Bar */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: #C77075;
+}
+
+/* Nav Bar Active */
+li.nav-item.active {
+    font-weight: bold;
+    text-decoration: underline;
+}

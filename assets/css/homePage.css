@@ -48,3 +48,12 @@ margin-inline-end: 0px;
     
  
 }
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .myresume {
+        border-width: 0px;
+    }
+}
