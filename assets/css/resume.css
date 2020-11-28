@@ -86,11 +86,19 @@ li span {color: black;}
     align-items: center;
     justify-content: space-between;
     padding: .5rem 1rem;
-    background-color: #C77075;
+    /* background-color: #C77075; */
 }
 
 /* Nav Bar Active */
 li.nav-item.active {
     font-weight: bold;
     text-decoration: underline;
+  
+}
+
+/* Nav Logo */
+.navbar-brand {
+    font-family: wreath;
+    font-weight: bold;
+
 }
