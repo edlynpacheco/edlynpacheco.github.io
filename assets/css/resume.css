@@ -91,14 +91,22 @@ li span {color: black;}
 
 /* Nav Bar Active */
 li.nav-item.active {
+    color: #C77075;
     font-weight: bold;
     text-decoration: underline;
   
 }
 
 /* Nav Logo */
-.navbar-brand {
-    font-family: wreath;
-    font-weight: bold;
-
+.customNav > a.navbar-brand > img {
+height: 150px;
+width: auto;
 }
+
+/* media queries */
+@media (max-width: 576px) {
+    .customNav > a.navbar-brand > img {
+        height: 100px;
+    }
+}
+

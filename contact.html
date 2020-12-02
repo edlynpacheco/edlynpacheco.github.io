@@ -4,10 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>Portfolio Page</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/resume.css">
+<link rel="stylesheet" href="text/css" href="assets/css/sharedStyle.css">
+<link rel="stylesheet" href="text/css" href="assets/css/contact.css">
+
+    <!-- bootstrap stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+ <!-- FontAwesome -->
+ <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
 </head>
+
+
+
 <body>
-<h1>This will be my future portfolio website</h1>
-<p>there will more projects display here really soon!!!</p>
+
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html">
+    <img src="assets/images/logo.jpg" class="img-fluid">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="cssTraining.html">CSS Training</a>
+          </li> -->
+          <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+
+<h1>Hello</h1>
+
 
 <div class="container">
     <form>
@@ -20,10 +64,15 @@
           <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <div class="form-group form-check">
+        <div class="form-group">
+          <label for="emailLetter">Write me a message</label>
+          <textarea class="form-control" id="emaiLetter" rows="3"></textarea>
+        </div>
+
+        <!-- <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
+        </div> -->
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 </div>
