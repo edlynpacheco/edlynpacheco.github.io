@@ -89,3 +89,12 @@ div.divider {
  .row {
      align-items: center;
  }
+
+a.viewProjectBtn {
+    background-color: #C77075;
+    color: white;
+    border: 1px solid transparent;
+    font-family: garamond;
+    font-weight: lighter;
+}
+
