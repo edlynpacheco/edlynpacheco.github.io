@@ -78,35 +78,4 @@ li span {color: black;}
     }
 }
 
-/* Nav Bar */
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 1rem;
-    /* background-color: #C77075; */
-}
-
-/* Nav Bar Active */
-li.nav-item.active {
-    color: #C77075;
-    font-weight: bold;
-    text-decoration: underline;
-  
-}
-
-/* Nav Logo */
-.customNav > a.navbar-brand > img {
-height: 150px;
-width: auto;
-}
-
-/* media queries */
-@media (max-width: 576px) {
-    .customNav > a.navbar-brand > img {
-        height: 100px;
-    }
-}
 

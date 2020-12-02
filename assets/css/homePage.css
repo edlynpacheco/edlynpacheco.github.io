@@ -51,9 +51,32 @@ margin-inline-end: 0px;
 
 
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .myresume {
-        border-width: 0px;
-    }
+
+/* Nav Bar */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    /* background-color: #C77075; */
+}
+
+/* Nav Bar Active */
+li.nav-item.active {
+    color: #C77075;
+    font-weight: bold;
+    text-decoration: underline;
+  
+}
+
+/* Nav Logo */
+.customNav > a.navbar-brand > img {
+height: 150px;
+width: auto;
+}
+
+h1 {
+    font-family: garamond;
 }
