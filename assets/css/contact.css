@@ -18,3 +18,11 @@ div.divider {
 margin-top: 15px;
 }
 
+.contactMe {
+    border:dotted #C77075;
+    padding: 20px 50px;
+}
+
+h5 {
+    font-weight: bold;
+}
