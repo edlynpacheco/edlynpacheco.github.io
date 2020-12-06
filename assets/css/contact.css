@@ -2,6 +2,7 @@ h2 {
     font-family: garamond;
     font-weight: bold;
     text-align: center;
+    
 }
 
 .myContact {
@@ -15,7 +16,7 @@ h3 {
 }
 
 div.divider {
-margin-top: 15px;
+margin-top: 25px;
 }
 
 .contactMe {
